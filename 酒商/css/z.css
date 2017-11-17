@@ -1,0 +1,132 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ ul,ol,li{list-style:none;}
+ a,u{text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:100;}
+b,strong{font-weight:100;}
+i,em{font-style:normal;}
+.clearfix::after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+.top1,.nav1,.f1{
+	width: 1200px;
+	margin:0 auto;
+
+}
+
+/*top*/
+#top{
+	border-bottom: 2px solid #bc0e31
+}
+.top1{
+	height: 100px;
+}
+.top1 h2{
+	width: 316px;
+	margin-top: 24px;
+	float:left
+}
+.top1 .right{
+	float: right;
+	margin-top: 33px
+}
+/*nav*/
+#nav{
+	border-bottom: 1px solid red;
+}
+.nav1{
+	height: 519px;
+	padding-top: 20px;
+	
+}
+.nav1 .le1{
+	height: 387px;
+	width: 354px;
+	float: left;
+	padding:25px 22px;
+	border: 1px solid #ccc;
+
+}
+.nav1 .le1 form .input1 ,.passWord ,.passWord2{
+	width: 240px;
+	height: 40px;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+.nav1 .le1 form .mybutton{
+	font-size: 16px;
+	color: #ffffff;
+	background: #bb0e30;
+	width: 350px;
+	height:45px;
+	margin-top: 27px;
+	border: 0;
+}
+.nav1 .le1 h2{
+	width: 354px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	font-size: 12px;
+	color: #333333;
+	margin-bottom: 23px;
+}
+.nav1 .le1 form .inp1,.inp2{
+	margin-left: 70px;	
+}
+.nav1 .le1 form em{
+	font-size: 12px;
+}
+.nav1 .le1 form  span,a{
+	font-size: 12px
+}
+
+
+.nav1 .ri1{
+	float: right;
+	position:relative;
+	overflow:hidden;
+	width:790px;
+	height:480px;
+	background:url(../image/r1.jpg) no-repeat;
+}
+.nav1 .ri1 span{
+	position:absolute;
+	top:335px;
+	left:60px;
+	width:200px;
+	height:25px;
+	font-size: 12px;
+	color:#636363;
+	text-align:left;
+	line-height:20px}
+.nav1 .ri1 span a{
+	color:#636363;
+	text-decoration:underline
+}
+.nav1 .ri1 span a:hover{
+	color:#333;
+	text-decoration:none;
+}
+/*fot*/
+.f1{
+	height: 147px;
+	text-align: center;
+}
+.f1 .p1{
+	margin:20px 0;
+}
+.f1 .p1 span,a{
+	font-size: 12px;
+	padding:0 10px;
+	color: #999999;
+	
+}
+.f1 .p1 span img{
+	padding-right: 7px;
+}
+.f1 .p1 a img{
+	padding-right: 7px;
+}
+.f1 .p2{
+	font-size: 12px;
+	color: #999999;
+	margin-bottom: 10px;
+} 

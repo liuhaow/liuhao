@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/d.css">
+	</head>
+	<body>
+	<!--top-->
+	<div id="top">
+		<div class="top1">
+			<h2>
+				<a href="index.html">
+					<img src="image/logo.png" alt="">
+				</a>
+			</h2>
+			<div class="right">
+				<img src="image/z.jpg" width="556" height="53" alt="真品保障 恒温恒湿 30天退货">
+			</div>
+		</div>
+	</div>
+<!--nav-->
+	<div id="nav">
+		<div class="nav1">
+			<div class="n1">
+			      <a href="#" title="双11巅峰大惠战" target="_blank">
+			      	<img src="image/s.jpg" />
+			      </a>
+			</div>
+			<div class="n2">
+				<h2>登录也买酒</h2>
+				<form name="" method="get" action="">
+						<input type="text" placeholder="请输入E-mail或手机号" class="input1"><div></div>
+						<input type="text" placeholder="请输入密码" class="passWord"><br>
+						<input type="checkbox" class="inp1"><em>自动登录</em><br>
+						<input type="button"  value="登录" class="mybutton">
+				</form>
+
+				<p class="pp1">
+					<a href="">[忘记密码？]</a><a href="zhu.html">[注册新账号]</a>
+				</p>
+				<h3>使用合作网站账号登录:</h3>
+				<p class="pp2">
+					<a ><img src="image/d_03.jpg" alt=""></a><a href=""><img src="image/d_05.jpg" alt=""></a><a href=""><img src="image/d_07.jpg" alt=""></a>
+				</p>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+	<!--footer-->
+	<div id="fot">
+		<div class="f1">
+			<p class="p1">
+				<span><img src="image/f_05.jpg" alt="">仅限18周岁以上人士购买</span>|<a href=""><img src="image/f_07.jpg" alt="">网络社会征信网</a>|<span><img src="image/f_09.jpg" alt="">上海工商</span>|<span>京公网安备11010502013828</span>
+			</p>
+
+			<p class="p2">
+				Copyright 2006-2014 也买酒 yesmywine.com 版权所有 | <a href="">沪ICP备09093441号 </a>
+			</p>
+
+			   <div class="f2">
+			   		<span class="float"> 
+					    	<a  href="#" target='_blank'>
+								<img src="image/xin.png" border='0' />
+							</a>
+							<img src="image/xin1.jpg" />
+					</span>
+
+				</div>
+
+	</div>
+</div>
+
+
+
+
+
+	</body>
+</html>
+<script src="js/cookie.js"></script>
+<script>
+	
+	var ipt = document.getElementsByTagName("input");
+	
+	ipt[3].onclick = function(){
+		var arr = JSON.parse(getCookie("cheng"));
+		if( arr[0].name == ipt[0].value && arr[0].pwd == ipt[1].value ){
+			alert("登录成功");
+			location.href = "index.html";
+		}else{
+			alert("登录失败");
+		}
+	}
+	
+</script>
